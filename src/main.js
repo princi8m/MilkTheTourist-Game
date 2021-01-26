@@ -16,7 +16,7 @@ function draw () {
     keys1();
     player();  
     image(img_obelisk, 567, 80);
-    drawGrid();
+    //drawGrid();
    //console.log((floor(mouseX/50)),(floor(mouseY/50)));s
 }
 
@@ -24,7 +24,7 @@ function draw () {
 
 function player ()
 {    
- image(img_player[dir_player], playerX, playerY);
+ image(img_player[dir_player], playerX-40, playerY+40);
 }
 
 
@@ -40,6 +40,7 @@ function drawGrid (){
 
           for (let z = 0; z<12; z++){
            text(cGrid[i][z],(i*50), 50+(z*50));
+          checkSquare();
           }
 
         } // end for loop

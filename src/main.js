@@ -17,7 +17,10 @@ function draw () {
     player();  
     image(img_obelisk, 567, 80);
     drawGrid();
+   //console.log((floor(mouseX/50)),(floor(mouseY/50)));s
 }
+
+
 
 function player ()
 {    
@@ -29,11 +32,17 @@ function drawGrid (){
    
         for (let i = 0; i < 24; i ++ )
         {
-            textSize(32);
+          textSize(32);
           text(i, (50*i), 30);
           text(i,  0, 30+(50*i));
           line((50*i), 0, (50*i), 1200);
           line(0, 50*i, 1200, 50*i);
+
+          for (let z = 0; z<12; z++){
+           text(cGrid[i][z],(i*50), 50+(z*50));
+          }
+
         } // end for loop
      
+    
 }

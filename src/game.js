@@ -27,3 +27,9 @@ function keys1(){
     
       }
 }
+
+function checkSquare(){
+    if ( cGrid[floor(playerX/50)][floor(playerY/50)] === 1 ) {
+            console.log("1");
+        }
+    }

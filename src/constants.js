@@ -5,6 +5,7 @@ var dirX=0;
 var dirY=0;
 var dir_player=2;
 var playerSpeed=5;
+var dir_anim=1;
 
 
 
@@ -90,36 +91,47 @@ cGrid[ 6][1]=1;
 cGrid[ 6][11]=1;
 
 cGrid[ 7][0]=1;
+cGrid[ 7][1]=1;
 cGrid[ 7][11]=1;
 
 cGrid[ 8][0]=1;
+cGrid[ 8][1]=1;
 cGrid[ 8][11]=1;
 
 cGrid[ 9][0]=1;
+cGrid[ 9][1]=1;
 cGrid[ 9][11]=1;
 
 cGrid[10][0]=1;
+cGrid[10][1]=1;
 cGrid[10][11]=1;
 
 cGrid[11][0]=1;
+cGrid[11][1]=1;
 cGrid[11][11]=1;
 
 cGrid[12][0]=1;
+cGrid[12][1]=1;
 cGrid[12][11]=1;
 
 cGrid[12][0]=1;
+cGrid[13][1]=1;
 cGrid[12][11]=1;
 
 cGrid[13][0]=1;
+cGrid[14][1]=1;
 cGrid[13][11]=1;
 
 cGrid[14][0]=1;
+cGrid[14][1]=1;
 cGrid[14][11]=1;
 
 cGrid[15][0]=1;
+cGrid[15][1]=1;
 cGrid[15][11]=1;
 
 cGrid[16][0]=1;
+cGrid[16][1]=1;
 cGrid[16][11]=1;
 
 cGrid[17][0]=1;
@@ -132,6 +144,7 @@ cGrid[18][11]=1;
 
 cGrid[19][0]=1;
 cGrid[19][1]=1;
+cGrid[19][10]=1;
 cGrid[19][11]=1;
 
 cGrid[20][0]=1;
